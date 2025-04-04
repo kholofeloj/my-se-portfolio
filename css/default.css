@@ -329,3 +329,41 @@ form{
     margin-bottom: 16px;
 }
 
+
+
+/* footer styles */
+
+footer {
+    padding: 64px 0;
+    background-color: #222222;
+    color: #fff;
+}
+
+.footer-top-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.footer-heading {
+    margin-bottom: 16px;
+}
+
+.social-icons {
+    margin-top: 16px;
+}
+
+.icon {
+    height: 48px;
+}
+
+.f-divider {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin: 32px 0;
+}
+
+.copyright {
+    text-align: center;
+}
