@@ -35,6 +35,34 @@
 
 }
 
+.section-title {
+    font-size: 32px;
+    font-weight: 900;
+    margin: 24px 0;
+}
+
+.divider {
+    width: 32px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.card {
+    /* background-color: #fff; */
+    padding: 32px;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 32px;
+}
 
 a {
     text-decoration: none;
@@ -154,18 +182,48 @@ header .logo a:hover {
 #resume-btn:hover {
     background-color: #095b8a;
 }
-/* #my-skills {
+
+
+/* About Section Styles */
+
+.about-me {
+    padding: 80px 0;
+    /* background-color: #dfdfdf; */
+}
+
+#about-me-title {
+    text-align: center;
+}
+
+.about-content-title {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.about-content-paragraph {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+#btn-contact {
+    margin-bottom: 32px;
+}
+
+.skills {
     display: flex;
     flex-wrap: wrap;
 }
 
 .skill-item {
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
-    font-size: 1.6rem;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: rgb(102, 102, 102);
-    padding: 1rem 2rem;
-    background: rgba(153, 153, 153, 0.2);
+    padding: 16px 32px;
+    background: rgba(204, 204, 204, 0.61);
     border-radius: 5px;
-} */
+}
