@@ -1,0 +1,8 @@
+*.log
+/node_modules
+/node_modules/*
+/src
+/dist
+package-lock.json
+package.json
+gulpfile.js
