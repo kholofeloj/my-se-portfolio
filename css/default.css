@@ -1,5 +1,5 @@
 /* Importing Open Sans fotn from google */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 /* Global styles */
@@ -24,7 +24,7 @@
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -37,12 +37,13 @@
 
 .section-title {
     font-size: 32px;
-    font-weight: 900;
+    font-weight: 800;
+    text-transform: uppercase;
     margin: 24px 0;
 }
 
 .divider {
-    width: 32px;
+    width: 44px;
     height: 4px;
     border-radius: 5px;
     background-color: #007BFF;
@@ -74,7 +75,7 @@ li {
 }
 
 body {
-    font-family: 'Open Sans', sanns-serif;
+    font-family: 'Poppins', sanns-serif;
     background-color: #E5E5E5;
 }
 
@@ -169,12 +170,6 @@ header .logo a:hover {
 
 #resume-btn {
     background-color: #053652;
-    color: #fff;
-    padding: 16px 32px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
     transition: all 0.3s ease-in-out;
     border: none;
 }
@@ -227,3 +222,51 @@ header .logo a:hover {
     background: rgba(204, 204, 204, 0.61);
     border-radius: 5px;
 }
+
+/* Projects Section Styles */
+
+.projects {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+#my-projects {
+    text-align: center;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    background-color: #adadad27;
+    padding: 32px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 32px;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-details {
+    /* background-color: #7b976e; */
+    padding: 32px;
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #007BFF;
+    margin-bottom: 16px;
+}
+
+.project-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 32px;
+}
+
