@@ -120,11 +120,16 @@
             <div class="f-divider"></div>
             
             <div class="copyright">
-                <p class="copyright-text">© 2023 Kholofelo Mocheko. All rights reserved.</p>
+                <p class="copyright-text">&copy; <span id="currentYear"></span> Kholofelo Mocheko. All Rights Reserved.</p>
                 <p class="copyright-text">Designed by Kholofelo Mocheko</p>
             </div>
         </div>
     </footer>
+
+
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
     
 </body>
 </html>
